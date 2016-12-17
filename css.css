@@ -14,7 +14,7 @@ body{
 	font-family:Estrangelo Edessa, arial;
 }
 main{
-	margin-top:-1em;
+	margin-top:1em;
 	width:100%;
 }
 nav{
@@ -33,9 +33,9 @@ nav{
 	vertical-align:middle;
 }
 .nav-actions{
-    	display:inline-block;
-    	float:right;
-    	padding:1em;
+	display:inline-block;
+    float:right;
+    padding:1em;
 }
 .nav-actions a{
 	display:none;
@@ -45,16 +45,16 @@ nav{
 	display:inline-block;
 }
 .promo{
-    	background:cadetblue;
+    background:cadetblue;
 	clear:both;
 	display:block;
 	font-size: 1rem;
 	font-weight:bold;
 	line-height: 1.75em;
 	margin:4em 0 -1em;
-    	padding:.5em 0;	
+    padding:.5em 0;	
 	position: relative;
-    	text-align: center;
+    text-align: center;
 	z-index: 2;
 }
 header{
@@ -89,13 +89,15 @@ h3{
 	font-family:arial black;
 	margin-bottom:.5em;
 }
-.cell{
-	display:table-cell;
-	vertical-align:middle;
-}
 .logo{
-        height:auto;
-	width:90%;
+    position:absolute;
+	left:0;
+	right:0;
+	top:3em;
+	bottom:0;
+	margin:auto;
+	opacity:1;
+	width:100%;
 }
 section{
 	overflow:hidden;
@@ -165,24 +167,24 @@ a > img{
 	text-align:justify;
 }
 .third p.social-links{
-	text-align:center;	
+	text-align:center;
 }
 #guide div.fifty{
 	margin:0 auto;
-    	padding:1em 0;
+    padding:1em 0;
 	width:100%;
 }
 #guide div.fifty:first-child{
 	margin:0 auto 1em;
 }
 .action{
-    	background:cadetblue;
-    	border-radius:.5em;
+    background:cadetblue;
+    border-radius:.5em;
 	color:#fff;
-    	display:inline-block;
+    display:inline-block;
 	margin-left:.25em;
 	padding:.5em;
-    	text-decoration:none;
+    text-decoration:none;
 }
 .action:hover,
 .promo:hover{
@@ -194,7 +196,7 @@ a > img{
 }
 .third{
 	margin:0 1em;
-	padding:1em;
+	padding:1em 0;
 	text-align:center;
 }
 .half{
@@ -234,9 +236,10 @@ a > img{
 .social.e:hover{
 	background-image:url(img/eh.png);
 }
-.copyright{
+.copyright,
+.copyright a{
 	color:#444;
-	font-size:.5em;
+	font-size:.75em;
 	padding:.5em;
 	text-align:center;
 }
@@ -299,7 +302,7 @@ a > img{
 @media only screen 
   and (min-width: 720px){
 	main{
-		margin-top:2em;
+		margin-top:3em;
 	}
 	.introvideo {
 		display:block;
@@ -314,14 +317,8 @@ a > img{
 		z-index:-1;
 	}
 	.logo{
-	 position:absolute;
-	 left:0;
-	 right:0;
-	 top:0;
-	 bottom:0;
-	 margin:auto;
-	 animation:example 3s;
-	 opacity:1;
+		top:5em;
+		animation:example 3s;
 	}
 	nav{
 		padding:1em 0;
@@ -342,8 +339,6 @@ a > img{
 	}
 	.down{
 		bottom:1em;
-		margin-left: -1em;
-		width: 2em;
 	}
 	.words{
 		bottom:1em;
@@ -351,18 +346,19 @@ a > img{
 		text-align:center;
 	}
 	.description{
-		padding:2em 1em;
+		padding:1em;
 		width:40%;
 	}
-	.description p{
-		text-align:justify;
+	.description p,
+	.third p{
+		font-size:.75em;
 	}
 	.social{
 		margin:0 1em;
 	}
 }
 
-/*bigger than mobile*/
+/*bigger than tablet*/
 @media only screen 
   and (min-width: 1200px){
 	.third{
@@ -408,15 +404,5 @@ a > img{
 	}
     to{
 		opacity:1;
-	}
-}
-@keyframes weird-zoom {
-    from{
-		width:110%;
-		height:110%;
-	}
-    to{
-		width:105%;
-		height:105%;
 	}
 }
