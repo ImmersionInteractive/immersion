@@ -1,0 +1,69 @@
+<!DOCTYPE>
+<html>
+<head>
+	<link  rel="stylesheet" type="text/css" href="css.css">
+	<link rel='icon' href='img/favicon.png' type='image/x-icon'/ >
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>404 | Immersion Charlottesville - Escape Room Experiencess</title>
+	<meta name="description" content="Immersion Escape Rooms, located just minutes from the downtown mall and the University of Virginia in Charlottesville, provides a unique, interactive experience for friends, family, and co-workers who are seeking a new and challenging form of entertainment.  Put yourself in the center of a story that feels like a big screen movie. Your team has up to 60 minutes to solve a series of engaging puzzles within meticulously designed environments. Communicate, explore, and think outside the box in groups of up to eight people while finding a way to escape!">
+	
+	<meta property="og:title" content="Immersion Escape Rooms - Charlottesville, VA" />
+	<meta property="og:description" content="Immersion Escape Rooms in Charlottesville, VA offers a unique experience that inserts friends, family, and co-workers into highly detailed, multimedia environments where they must work together to find hidden meanings, solve puzzles, and unlock a meticulously designed story that extends across multiple sets and even beyond the 4th wall." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://www.immersionescaperooms.com/" />
+	<meta property="og:image" content="http://www.immersionescaperooms.com/img/OGLogo.png" />
+	
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		
+		ga('create', 'UA-80774820-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<nav>
+		<a href="/"><img src="img/o.png" class="nav-logo" /></a>
+		<div class="nav-actions">
+			<a href="our-escape-rooms.html">Our Rooms</a><a href="#">The Story</a><a href="frequently-asked-questions.html">FAQ</a><a href="index.html#contact">Contact Us</a><a href="make-a-reservation.html" class="action">Book Now</a>
+		</div>
+	</nav>
+	<div class="fof">
+		<span class="s s4"></span>
+		<img src="img/o.png" alt="0"/>
+		<span class="s s4"></span>
+	</div>
+	<style>
+		body{
+			background:#000;
+			text-align:center;
+		}
+		.s{
+			background:url(img/num.png);
+			background-size:1142%;
+			display:inline-block;
+			height:0;
+			padding-bottom:8%;
+                        position:relative;
+			width:8%;
+                        top:-2em;
+		}
+		.s4{
+			background-position:40% 0;
+		}
+		@media only screen and (min-width: 500px){
+			body{
+				background:url(img/bg.png);
+				background-size:100%;
+				background-position:center;
+			}
+			.s{
+				padding-bottom:5.515%;
+				width:5.515%;
+			}
+		}
+	</style>
+</body>
+</html>
